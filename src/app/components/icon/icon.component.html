@@ -8,12 +8,13 @@
   xmlns="http://www.w3.org/2000/svg"
 >
   @for (path of def().paths; track path.d) {
-    @if (def().mode === 'stroke') {
+    @if (path.mode === 'stroke') {
       <path
         [attr.d]="path.d"
         stroke="currentColor"
         [attr.stroke-width]="def().strokeWidth"
         [attr.stroke-linecap]="path.strokeLinecap"
+        [attr.opacity]="path.opacity"
         fill="none"
       />
     } @else {
