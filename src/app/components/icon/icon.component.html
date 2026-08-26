@@ -1,0 +1,29 @@
+<svg
+  class="icon__svg"
+  [style.width.px]="size()"
+  [style.height.px]="size()"
+  [attr.viewBox]="def().viewBox"
+  fill="none"
+  aria-hidden="true"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  @for (path of def().paths; track path.d) {
+    @if (def().mode === 'stroke') {
+      <path
+        [attr.d]="path.d"
+        stroke="currentColor"
+        [attr.stroke-width]="def().strokeWidth"
+        [attr.stroke-linecap]="path.strokeLinecap"
+        fill="none"
+      />
+    } @else {
+      <path
+        [attr.d]="path.d"
+        [attr.opacity]="path.opacity"
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        fill="currentColor"
+      />
+    }
+  }
+</svg>

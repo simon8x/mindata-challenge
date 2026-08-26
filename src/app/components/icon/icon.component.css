@@ -1,0 +1,7 @@
+@reference "../../../styles.css";
+:host {
+  display: contents;
+}
+.icon__svg {
+  @apply shrink-0;
+}
