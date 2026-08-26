@@ -1,0 +1,17 @@
+@reference "../../../styles.css";
+:host {
+  display: contents;
+}
+.btn {
+  @apply inline-flex items-center border-0 cursor-pointer;
+  @apply font-sans font-bold text-btn text-white;
+}
+.btn--primary {
+  @apply bg-accent rounded-card px-2 py-2 gap-btn-primary;
+}
+.btn--text {
+  @apply bg-transparent gap-x-btn-text;
+}
+.btn__icon {
+  @apply size-6 shrink-0;
+}

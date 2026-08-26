@@ -9,6 +9,9 @@
   --text-body: 1rem;
   --text-body--line-height: 1.5rem;
 
+  --text-btn: 1rem;
+  --text-btn--line-height: 1.5rem;
+
   --text-section-title: 3rem;
   --text-section-title--line-height: 3.625rem;
 
@@ -17,6 +20,10 @@
 
   --text-card-title-sm: 1.5rem;
   --text-card-title-sm--line-height: 1.75rem;
+
+  /* Spacing */
+  --spacing-btn-primary: 0.625rem;
+  --spacing-btn-text: 0.25rem;
 
   /* Color */
   --color-accent: #e4002b;
