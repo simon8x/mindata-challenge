@@ -1,0 +1,7 @@
+@reference "../../../styles.css";
+:host {
+  display: contents;
+}
+.meta-label {
+  @apply inline-flex items-center gap-2 font-sans font-bold text-body text-copy;
+}

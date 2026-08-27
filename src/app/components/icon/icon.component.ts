@@ -1,6 +1,6 @@
 import { Component, computed, input } from '@angular/core';
 
-type IconName = 'arrow-down' | 'search' | 'calendar';
+export type IconName = 'arrow-down' | 'search' | 'calendar';
 interface IconPath {
   readonly d: string;
   readonly mode: 'fill' | 'stroke';
