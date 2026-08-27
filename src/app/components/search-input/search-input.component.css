@@ -1,0 +1,21 @@
+@reference "../../../styles.css";
+:host {
+  display: contents;
+}
+.search-input {
+  @apply inline-flex items-center gap-2;
+  @apply bg-surface rounded-card px-4 py-3 w-full;
+  @variant md {
+    @apply max-w-[18.75rem];
+  }
+}
+.search-input__label {
+  @apply sr-only;
+}
+.search-input__icon {
+  @apply text-icon;
+}
+.search-input__field {
+  @apply flex-1 border-0 bg-transparent;
+  @apply font-sans text-body text-copy;
+}
