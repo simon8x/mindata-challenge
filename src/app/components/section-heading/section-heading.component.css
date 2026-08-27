@@ -1,0 +1,10 @@
+@reference "../../../styles.css";
+:host {
+  display: contents;
+}
+.section-heading {
+  @apply font-sans font-bold text-heading text-section-title-sm;
+  @variant md {
+    @apply text-section-title;
+  }
+}
