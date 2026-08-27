@@ -6,6 +6,7 @@ import { SearchInputComponent } from '../../components/search-input/search-input
 import { SectionHeadingComponent } from '../../components/section-heading/section-heading.component';
 import { ResponsiveImageComponent } from '../../components/responsive-image/responsive-image.component';
 import { ArticleCardComponent } from '../../components/article-card/article-card.component';
+import { OverlayCardComponent } from '../../components/overlay-card/overlay-card.component';
 
 @Component({
   selector: 'app-ui-kit',
@@ -16,7 +17,8 @@ import { ArticleCardComponent } from '../../components/article-card/article-card
     SearchInputComponent, 
     SectionHeadingComponent,
     ResponsiveImageComponent,
-    ArticleCardComponent
+    ArticleCardComponent,
+    OverlayCardComponent
   ],
   templateUrl: './ui-kit.component.html',
   styleUrl: './ui-kit.component.css'
