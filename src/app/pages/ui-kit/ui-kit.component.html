@@ -32,3 +32,44 @@
 <div>
     <app-section-heading headingText="Lorem ipsum dolor sit"/>
 </div>
+<br/><hr/><br/>
+<div class="grid grid-cols-3 gap-4">
+    <div>
+        <app-responsive-image
+            src="/images/section1-723w.png"
+            alt=""
+            ratio="16 / 9"
+            srcset="/images/section1-356w.png 356w,
+                    /images/section1-640w.png 640w,
+                    /images/section1-723w.png 723w"
+            sizes="(min-width: 1024px) 723px,
+                    (min-width: 768px) 640px,
+                    356px"
+        />
+    </div>
+    <div>
+        <app-responsive-image
+            src="/images/section2-493w.png"
+            alt=""
+            ratio="16 / 9"
+            srcset="/images/section2-336w.png 336w,
+                    /images/section2-420w.png 420w,
+                    /images/section2-493w.png 493w"
+            sizes="(min-width: 1024px) 493px,
+                    (min-width: 768px) 336px,
+                    420px"
+        />
+    </div>
+    <div>
+        <app-responsive-image
+            src="/images/section3-360w.png"
+            alt=""
+            ratio="3 / 4"
+            srcset="/images/section3-284w.png 284w,
+                    /images/section3-360w.png 360w"
+            sizes="(min-width: 768px) 360px,
+                    284px"
+        />
+    </div>
+</div>
+<br/><hr/><br/>

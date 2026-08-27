@@ -1,0 +1,7 @@
+@reference "../../../styles.css";
+:host {
+  display: contents;
+}
+.responsive-image {
+  @apply w-full object-cover rounded-card;
+}
