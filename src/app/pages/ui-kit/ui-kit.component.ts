@@ -5,6 +5,7 @@ import { MetaLabelComponent } from '../../components/meta-label/meta-label.compo
 import { SearchInputComponent } from '../../components/search-input/search-input.component';
 import { SectionHeadingComponent } from '../../components/section-heading/section-heading.component';
 import { ResponsiveImageComponent } from '../../components/responsive-image/responsive-image.component';
+import { ArticleCardComponent } from '../../components/article-card/article-card.component';
 
 @Component({
   selector: 'app-ui-kit',
@@ -14,7 +15,8 @@ import { ResponsiveImageComponent } from '../../components/responsive-image/resp
     MetaLabelComponent, 
     SearchInputComponent, 
     SectionHeadingComponent,
-    ResponsiveImageComponent
+    ResponsiveImageComponent,
+    ArticleCardComponent
   ],
   templateUrl: './ui-kit.component.html',
   styleUrl: './ui-kit.component.css'

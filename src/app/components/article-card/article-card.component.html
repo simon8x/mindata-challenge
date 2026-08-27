@@ -1,0 +1,16 @@
+<article class="article-card">
+  <div class="article-card__media">
+    <app-responsive-image
+      [src]="imageSrc()"
+      [srcset]="imageSrcset()"
+      [sizes]="imageSizes()"
+      [alt]="imageAlt()"
+      [ratio]="ratio()"
+    />
+  </div>
+  <div class="article-card__body">
+    <app-meta-label [text]="meta()" />
+    <h3 class="article-card__title">{{ title() }}</h3>
+    <p class="article-card__excerpt">{{ excerpt() }}</p>
+  </div>
+</article>
