@@ -6,7 +6,7 @@ import { ButtonComponent } from '../button/button.component';
   selector: 'app-overlay-card',
   imports: [ResponsiveImageComponent, ButtonComponent],
   templateUrl: './overlay-card.component.html',
-  styleUrl: './overlay-card.component.css'
+  styleUrl: './overlay-card.component.css',
 })
 export class OverlayCardComponent {
   readonly title = input.required<string>();

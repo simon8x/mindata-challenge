@@ -5,14 +5,8 @@ import { SectionArticleOverlayComponent } from '../../components/section-article
 
 @Component({
   selector: 'app-home',
-  imports: [
-    SectionHeroComponent,
-    SectionArticleGridComponent,
-    SectionArticleOverlayComponent
-  ],
+  imports: [SectionHeroComponent, SectionArticleGridComponent, SectionArticleOverlayComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css',
 })
-export class HomeComponent {
-
-}
+export class HomeComponent {}

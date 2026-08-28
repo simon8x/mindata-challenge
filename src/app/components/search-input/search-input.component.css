@@ -4,7 +4,7 @@
 }
 .search-input {
   @apply inline-flex items-center gap-2;
-  @apply bg-surface rounded-card px-4 py-2 w-full;
+  @apply bg-surface rounded-card w-full px-4 py-2;
   @variant md {
     @apply max-w-[18.75rem];
   }
@@ -17,5 +17,5 @@
 }
 .search-input__field {
   @apply flex-1 border-0 bg-transparent;
-  @apply font-sans text-body text-copy;
+  @apply text-body text-copy font-sans;
 }

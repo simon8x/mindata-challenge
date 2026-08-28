@@ -5,7 +5,7 @@ import { IconComponent, IconName } from '../icon/icon.component';
   selector: 'app-meta-label',
   imports: [IconComponent],
   templateUrl: './meta-label.component.html',
-  styleUrl: './meta-label.component.css'
+  styleUrl: './meta-label.component.css',
 })
 export class MetaLabelComponent {
   readonly text = input.required<string>();

@@ -9,12 +9,12 @@
   @apply flex flex-col gap-4;
 }
 .article-card__title {
-  @apply font-sans font-bold text-heading text-card-title-sm line-clamp-2;
+  @apply text-heading text-card-title-sm line-clamp-2 font-sans font-bold;
 
   @variant md {
     @apply text-card-title;
   }
 }
 .article-card__excerpt {
-  @apply font-sans text-copy text-body line-clamp-6 min-h-[calc(6*var(--text-body--line-height))];
+  @apply text-copy text-body line-clamp-6 min-h-[calc(6*var(--text-body--line-height))] font-sans;
 }

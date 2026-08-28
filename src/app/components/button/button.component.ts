@@ -5,7 +5,7 @@ import { IconComponent } from '../icon/icon.component';
   selector: 'app-button',
   templateUrl: './button.component.html',
   styleUrl: './button.component.css',
-  imports: [IconComponent]
+  imports: [IconComponent],
 })
 export class ButtonComponent {
   readonly label = input.required<string>();

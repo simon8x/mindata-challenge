@@ -10,7 +10,7 @@
     @apply py-12;
   }
   @variant lg {
-    @apply py-24 px-0;
+    @apply px-0 py-24;
   }
 }
 
@@ -21,17 +21,17 @@
 .section-article-grid__subheader {
   @apply flex flex-col justify-start gap-2.5;
   @variant md {
-    @apply flex-row justify-between items-center;
+    @apply flex-row items-center justify-between;
   }
 }
 
 .section-article-grid__subheader-text {
-  @apply font-sans text-subheading text-heading;
+  @apply text-subheading text-heading font-sans;
 }
 
 .section-article-grid__list {
   @apply grid grid-cols-1 gap-6;
-    @variant md {
+  @variant md {
     @apply grid-cols-2 gap-8;
   }
   @variant lg {

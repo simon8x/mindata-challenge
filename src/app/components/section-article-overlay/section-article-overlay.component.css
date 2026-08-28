@@ -5,13 +5,13 @@
 .section-article-overlay {
   @apply container-page flex flex-col gap-12;
   @apply py-8;
-  
+
   @variant md {
     @apply py-12;
   }
-  
+
   @variant lg {
-    @apply py-24 px-0;
+    @apply px-0 py-24;
   }
 }
 
@@ -20,19 +20,19 @@
 }
 
 .section-article-overlay__lead {
-  @apply font-sans text-copy text-body;
+  @apply text-copy text-body font-sans;
 }
 
 .section-article-overlay__list {
-  @apply grid grid-flow-col overflow-x-auto snap-x snap-mandatory gap-8;
+  @apply grid snap-x snap-mandatory grid-flow-col gap-8 overflow-x-auto;
   grid-auto-columns: calc(100% / 1.48);
-  
+
   @variant md {
     grid-auto-columns: calc(100% / 1.95);
   }
-  
+
   @variant lg {
-    @apply grid-flow-row grid-cols-4 overflow-x-visible snap-none;
+    @apply snap-none grid-flow-row grid-cols-4 overflow-x-visible;
     grid-auto-columns: auto;
   }
 }

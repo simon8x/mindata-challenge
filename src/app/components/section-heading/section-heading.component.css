@@ -3,7 +3,7 @@
   display: contents;
 }
 .section-heading {
-  @apply font-sans font-bold text-heading text-section-title-sm;
+  @apply text-heading text-section-title-sm font-sans font-bold;
   @variant md {
     @apply text-section-title;
   }

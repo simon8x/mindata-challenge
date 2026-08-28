@@ -6,7 +6,7 @@ import { ResponsiveImageComponent } from '../responsive-image/responsive-image.c
   selector: 'app-article-card',
   imports: [MetaLabelComponent, ResponsiveImageComponent],
   templateUrl: './article-card.component.html',
-  styleUrl: './article-card.component.css'
+  styleUrl: './article-card.component.css',
 })
 export class ArticleCardComponent {
   readonly title = input.required<string>();

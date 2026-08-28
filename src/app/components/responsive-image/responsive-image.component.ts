@@ -3,7 +3,7 @@ import { Component, input } from '@angular/core';
 @Component({
   selector: 'app-responsive-image',
   templateUrl: './responsive-image.component.html',
-  styleUrl: './responsive-image.component.css'
+  styleUrl: './responsive-image.component.css',
 })
 export class ResponsiveImageComponent {
   readonly src = input.required<string>();

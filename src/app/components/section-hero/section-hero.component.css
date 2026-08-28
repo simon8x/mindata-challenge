@@ -5,18 +5,18 @@
 
 .section-hero {
   @apply bg-surface;
-  @apply py-8 px-5;
+  @apply px-5 py-8;
   @variant md {
-    @apply py-12 px-8;
+    @apply px-8 py-12;
   }
   @variant lg {
-    @apply py-24 px-0;
+    @apply px-0 py-24;
   }
 }
 
 .section-hero__card {
-  @apply bg-white shadow-card rounded-card;
-  @apply container-page p-8 flex gap-8;
+  @apply shadow-card rounded-card bg-white;
+  @apply container-page flex gap-8 p-8;
   @apply flex-col;
   @variant lg {
     @apply flex-row;
@@ -26,7 +26,7 @@
 .section-hero__media,
 .section-hero__body {
   @variant lg {
-    @apply flex-1 min-w-0;
+    @apply min-w-0 flex-1;
   }
 }
 
@@ -35,13 +35,13 @@
 }
 
 .section-hero__title {
-  @apply font-sans font-bold text-heading text-hero-title;
+  @apply text-heading text-hero-title font-sans font-bold;
 }
 
 .section-hero__excerpt {
-  @apply font-sans text-copy text-body;
+  @apply text-copy text-body font-sans;
 }
 
 .section-hero__cta {
-  @apply flex justify-end mt-auto;
+  @apply mt-auto flex justify-end;
 }

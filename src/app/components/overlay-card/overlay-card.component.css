@@ -3,7 +3,7 @@
   display: contents;
 }
 .overlay-card {
-  @apply relative overflow-hidden rounded-card;
+  @apply rounded-card relative overflow-hidden;
 }
 .overlay-card__content {
   @apply absolute inset-x-0 bottom-0 h-[175px];
@@ -12,8 +12,8 @@
   @apply bg-gradient-to-b from-transparent to-black;
 }
 .overlay-card__title {
-  @apply font-sans font-bold text-card-title line-clamp-2;
+  @apply text-card-title line-clamp-2 font-sans font-bold;
 }
 .overlay-card__excerpt {
-  @apply font-sans text-body line-clamp-2;
+  @apply text-body line-clamp-2 font-sans;
 }

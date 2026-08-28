@@ -3,5 +3,5 @@
   display: contents;
 }
 .responsive-image {
-  @apply w-full object-cover rounded-card;
+  @apply rounded-card w-full object-cover;
 }

@@ -5,7 +5,7 @@ import { IconComponent } from '../icon/icon.component';
   selector: 'app-search-input',
   imports: [IconComponent],
   templateUrl: './search-input.component.html',
-  styleUrl: './search-input.component.css'
+  styleUrl: './search-input.component.css',
 })
 export class SearchInputComponent {
   readonly labelText = input.required<string>();

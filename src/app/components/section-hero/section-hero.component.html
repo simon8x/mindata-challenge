@@ -1,21 +1,21 @@
 <section class="section-hero">
   <div class="section-hero__card">
     <div class="section-hero__media">
-        <app-responsive-image
-          [src]="imageSrc"
-          [srcset]="imageSrcset"
-          [sizes]="imageSizes"
-          alt=""
-          ratio="16 / 9"
-        />
-      </div>
-      <div class="section-hero__body">
-        <app-meta-label [text]="meta" />
-        <h1 class="section-hero__title">{{ title }}</h1>
-        <p class="section-hero__excerpt">{{ excerpt }}</p>
-        <div class="section-hero__cta">
-          <app-button [label]="ctaLabel" variant="primary" />
-        </div>
+      <app-responsive-image
+        [src]="imageSrc"
+        [srcset]="imageSrcset"
+        [sizes]="imageSizes"
+        alt=""
+        ratio="16 / 9"
+      />
+    </div>
+    <div class="section-hero__body">
+      <app-meta-label [text]="meta" />
+      <h1 class="section-hero__title">{{ title }}</h1>
+      <p class="section-hero__excerpt">{{ excerpt }}</p>
+      <div class="section-hero__cta">
+        <app-button [label]="ctaLabel" variant="primary" />
       </div>
     </div>
+  </div>
 </section>
