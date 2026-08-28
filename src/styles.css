@@ -20,6 +20,9 @@
   --text-card-title: 1.875rem;
   --text-card-title--line-height: 2.375rem;
 
+  --text-hero-title: 1.5rem;
+  --text-hero-title--line-height: 1.75rem;
+
   --text-card-title-sm: 1.5rem;
   --text-card-title-sm--line-height: 1.75rem;
 
@@ -37,6 +40,7 @@
   /* Layout */
   --container-content: 96.375rem;
   --radius-card: 0.5rem;
+  --shadow-card: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 

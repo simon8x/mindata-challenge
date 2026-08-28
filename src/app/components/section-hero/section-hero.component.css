@@ -1,0 +1,47 @@
+@reference "../../../styles.css";
+:host {
+  display: contents;
+}
+
+.section-hero {
+  @apply bg-surface;
+  @apply py-8 px-5;
+  @variant md {
+    @apply py-12 px-8;
+  }
+  @variant lg {
+    @apply py-24 px-0;
+  }
+}
+
+.section-hero__card {
+  @apply bg-white shadow-card rounded-card;
+  @apply container-page p-8 flex gap-8;
+  @apply flex-col;
+  @variant lg {
+    @apply flex-row;
+  }
+}
+
+.section-hero__media,
+.section-hero__body {
+  @variant lg {
+    @apply flex-1 min-w-0;
+  }
+}
+
+.section-hero__body {
+  @apply flex flex-col gap-4;
+}
+
+.section-hero__title {
+  @apply font-sans font-bold text-heading text-hero-title;
+}
+
+.section-hero__excerpt {
+  @apply font-sans text-copy text-body;
+}
+
+.section-hero__cta {
+  @apply flex justify-end mt-auto;
+}
