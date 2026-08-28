@@ -1,0 +1,36 @@
+@reference "../../../styles.css";
+:host {
+  display: contents;
+}
+.section-overlay-row {
+  @apply container-page flex flex-col gap-12;
+  @apply py-8;
+  
+  @variant md {
+    @apply py-12;
+  }
+  
+  @variant lg {
+    @apply py-24;
+  }
+}
+.section-overlay-row__header {
+  @apply flex flex-col gap-6;
+}
+.section-overlay-row__lead {
+  @apply font-sans text-copy text-body;
+}
+.section-overlay-row__list {
+  @apply grid grid-flow-col overflow-x-auto snap-x snap-mandatory gap-8;
+  grid-auto-columns: calc(100% / 1.48);
+  @variant md {
+    grid-auto-columns: calc(100% / 1.95);
+  }
+  @variant lg {
+    @apply grid-flow-row grid-cols-4 overflow-x-visible snap-none;
+    grid-auto-columns: auto;
+  }
+}
+.section-overlay-row__item {
+  @apply snap-start;
+}

@@ -9,6 +9,7 @@ import { ArticleCardComponent } from '../../components/article-card/article-card
 import { OverlayCardComponent } from '../../components/overlay-card/overlay-card.component';
 import { SectionHeroComponent } from '../../components/section-hero/section-hero.component';
 import { SectionArticleGridComponent } from '../../components/section-article-grid/section-article-grid.component';
+import { SectionArticleOverlayComponent } from '../../components/section-article-overlay/section-article-overlay.component';
 
 @Component({
   selector: 'app-ui-kit',
@@ -22,7 +23,8 @@ import { SectionArticleGridComponent } from '../../components/section-article-gr
     ArticleCardComponent,
     OverlayCardComponent,
     SectionHeroComponent,
-    SectionArticleGridComponent
+    SectionArticleGridComponent,
+    SectionArticleOverlayComponent
   ],
   templateUrl: './ui-kit.component.html',
   styleUrl: './ui-kit.component.css'
