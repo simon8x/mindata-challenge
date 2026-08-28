@@ -51,7 +51,6 @@ const ICONS: Record<IconName, IconDef> = {
   selector: 'app-icon',
   templateUrl: './icon.component.html',
   styleUrl: './icon.component.css',
-  host: { class: 'icon'},
 })
 export class IconComponent {
   readonly name = input.required<IconName>();
