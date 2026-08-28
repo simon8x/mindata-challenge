@@ -20,11 +20,14 @@
   --text-card-title: 1.875rem;
   --text-card-title--line-height: 2.375rem;
 
-  --text-hero-title: 1.5rem;
-  --text-hero-title--line-height: 1.75rem;
+  --text-card-title-sm: 1.4375rem;
+  --text-card-title-sm--line-height: 1.5625rem;
 
-  --text-card-title-sm: 1.5rem;
-  --text-card-title-sm--line-height: 1.75rem;
+  --text-hero-title: 1.4375rem;
+  --text-hero-title--line-height: 1.5625rem;
+
+  --text-subheading: 1.125rem;
+  --text-subheading--line-height: 1.6875rem;
 
   /* Spacing */
   --spacing-btn-primary: 0.625rem;

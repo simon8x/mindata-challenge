@@ -1,0 +1,24 @@
+<section class="section-article-grid">
+  <header class="section-article-grid__header">
+    <app-section-heading [headingText]="heading" />
+    <div class="section-article-grid__subheader">
+        <p class="section-article-grid__subheader-text">{{ subHeading }}</p>
+        <app-search-input labelText="Buscar artículos" placeholder="" />
+    </div>
+  </header>
+  <ul class="section-article-grid__list">
+    @for (article of articles; track article.id) {
+      <li class="section-article-grid__item">
+        <app-article-card
+          [title]="article.title"
+          [excerpt]="article.excerpt"
+          [meta]="article.meta"
+          [imageSrc]="article.imageSrc"
+          [imageAlt]="article.imageAlt"
+          [imageSrcset]="article.imageSrcset"
+          [imageSizes]="article.imageSizes"
+        />
+      </li>
+    }
+  </ul>
+</section>

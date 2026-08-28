@@ -4,7 +4,7 @@
 }
 .search-input {
   @apply inline-flex items-center gap-2;
-  @apply bg-surface rounded-card px-4 py-3 w-full;
+  @apply bg-surface rounded-card px-4 py-2 w-full;
   @variant md {
     @apply max-w-[18.75rem];
   }

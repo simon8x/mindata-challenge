@@ -8,6 +8,7 @@ import { ResponsiveImageComponent } from '../../components/responsive-image/resp
 import { ArticleCardComponent } from '../../components/article-card/article-card.component';
 import { OverlayCardComponent } from '../../components/overlay-card/overlay-card.component';
 import { SectionHeroComponent } from '../../components/section-hero/section-hero.component';
+import { SectionArticleGridComponent } from '../../components/section-article-grid/section-article-grid.component';
 
 @Component({
   selector: 'app-ui-kit',
@@ -20,7 +21,8 @@ import { SectionHeroComponent } from '../../components/section-hero/section-hero
     ResponsiveImageComponent,
     ArticleCardComponent,
     OverlayCardComponent,
-    SectionHeroComponent
+    SectionHeroComponent,
+    SectionArticleGridComponent
   ],
   templateUrl: './ui-kit.component.html',
   styleUrl: './ui-kit.component.css'
