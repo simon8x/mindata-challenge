@@ -2,7 +2,7 @@
 :host {
   display: contents;
 }
-.section-overlay-row {
+.section-article-overlay {
   @apply container-page flex flex-col gap-12;
   @apply py-8;
   
@@ -15,15 +15,15 @@
   }
 }
 
-.section-overlay-row__header {
+.section-article-overlay__header {
   @apply flex flex-col gap-6;
 }
 
-.section-overlay-row__lead {
+.section-article-overlay__lead {
   @apply font-sans text-copy text-body;
 }
 
-.section-overlay-row__list {
+.section-article-overlay__list {
   @apply grid grid-flow-col overflow-x-auto snap-x snap-mandatory gap-8;
   grid-auto-columns: calc(100% / 1.48);
   
@@ -37,6 +37,6 @@
   }
 }
 
-.section-overlay-row__item {
+.section-article-overlay__item {
   @apply snap-start;
 }

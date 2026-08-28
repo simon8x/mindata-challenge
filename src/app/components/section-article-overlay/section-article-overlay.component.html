@@ -1,11 +1,11 @@
-<section class="section-overlay-row">
-  <header class="section-overlay-row__header">
+<section class="section-article-overlay">
+  <header class="section-article-overlay__header">
     <app-section-heading [headingText]="heading" />
-    <p class="section-overlay-row__lead">{{ subheading }}</p>
+    <p class="section-article-overlay__lead">{{ subheading }}</p>
   </header>
-  <ul class="section-overlay-row__list">
+  <ul class="section-article-overlay__list">
     @for (card of cards; track card.id) {
-      <li class="section-overlay-row__item">
+      <li class="section-article-overlay__item">
         <app-overlay-card
           [title]="card.title"
           [excerpt]="card.excerpt"
