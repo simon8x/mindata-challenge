@@ -1,11 +1,25 @@
-<button
-  type="button"
-  class="btn"
-  [class.btn--primary]="variant() === 'primary'"
-  [class.btn--text]="variant() === 'text'"
->
-  <span class="btn__label">{{ label() }}</span>
-  @if (variant() === 'text') {
-    <app-icon name="arrow-down" />
-  }
-</button>
+@if (isLink()) {
+  <a
+    [href]="href()"
+    class="btn"
+    [class.btn--primary]="variant() === 'primary'"
+    [class.btn--text]="variant() === 'text'"
+  >
+    <span class="btn__label">{{ label() }}</span>
+    @if (variant() === 'text') {
+      <app-icon name="arrow-down" />
+    }
+  </a>
+} @else {
+  <button
+    type="button"
+    class="btn"
+    [class.btn--primary]="variant() === 'primary'"
+    [class.btn--text]="variant() === 'text'"
+  >
+    <span class="btn__label">{{ label() }}</span>
+    @if (variant() === 'text') {
+      <app-icon name="arrow-down" />
+    }
+  </button>
+}
