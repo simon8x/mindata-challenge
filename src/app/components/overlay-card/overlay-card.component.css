@@ -9,7 +9,7 @@
   @apply absolute inset-x-0 bottom-0 h-[175px];
   @apply flex flex-col justify-between p-4;
   @apply text-white;
-  @apply bg-gradient-to-b from-transparent to-black;
+  @apply bg-gradient-to-b from-black/50 to-black;
 }
 .overlay-card__title {
   @apply text-card-title line-clamp-2 font-sans font-bold;
