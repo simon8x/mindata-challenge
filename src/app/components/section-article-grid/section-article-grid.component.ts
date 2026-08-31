@@ -31,7 +31,7 @@ export class SectionArticleGridComponent {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id.',
       meta: 'Lorem ipsum dolor sit amet.',
       imageSrc: '/images/section2-493w.png',
-      imageAlt: '',
+      imageAlt: 'Pool bar hotel riu palace punta cana',
       imageSrcset:
         '/images/section2-336w.png 336w, /images/section2-420w.png 420w, /images/section2-493w.png 493w',
       imageSizes: '(min-width: 1024px) 493px, (min-width: 768px) 336px, 420px',
@@ -43,7 +43,7 @@ export class SectionArticleGridComponent {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id.',
       meta: 'Lorem ipsum dolor sit amet.',
       imageSrc: '/images/section2-493w.png',
-      imageAlt: '',
+      imageAlt: 'Restaurante piscina hotel riu palace punta cana',
       imageSrcset:
         '/images/section2-336w.png 336w, /images/section2-420w.png 420w, /images/section2-493w.png 493w',
       imageSizes: '(min-width: 1024px) 493px, (min-width: 768px) 336px, 420px',
@@ -55,7 +55,7 @@ export class SectionArticleGridComponent {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id.',
       meta: 'Lorem ipsum dolor sit amet.',
       imageSrc: '/images/section2-493w.png',
-      imageAlt: '',
+      imageAlt: 'Hotel riu palace punta cana',
       imageSrcset:
         '/images/section2-336w.png 336w, /images/section2-420w.png 420w, /images/section2-493w.png 493w',
       imageSizes: '(min-width: 1024px) 493px, (min-width: 768px) 336px, 420px',
@@ -67,7 +67,7 @@ export class SectionArticleGridComponent {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id.',
       meta: 'Lorem ipsum dolor sit amet.',
       imageSrc: '/images/section2-493w.png',
-      imageAlt: '',
+      imageAlt: 'Piscina hotel riu palace punta cana',
       imageSrcset:
         '/images/section2-336w.png 336w, /images/section2-420w.png 420w, /images/section2-493w.png 493w',
       imageSizes: '(min-width: 1024px) 493px, (min-width: 768px) 336px, 420px',
@@ -79,7 +79,7 @@ export class SectionArticleGridComponent {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id.',
       meta: 'Lorem ipsum dolor sit amet.',
       imageSrc: '/images/section2-493w.png',
-      imageAlt: '',
+      imageAlt: 'Splash water world hotel riu palace punta cana',
       imageSrcset:
         '/images/section2-336w.png 336w, /images/section2-420w.png 420w, /images/section2-493w.png 493w',
       imageSizes: '(min-width: 1024px) 493px, (min-width: 768px) 336px, 420px',
@@ -91,7 +91,7 @@ export class SectionArticleGridComponent {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros, eget tempus orci facilisis id.',
       meta: 'Lorem ipsum dolor sit amet.',
       imageSrc: '/images/section2-493w.png',
-      imageAlt: '',
+      imageAlt: 'White party riu party',
       imageSrcset:
         '/images/section2-336w.png 336w, /images/section2-420w.png 420w, /images/section2-493w.png 493w',
       imageSizes: '(min-width: 1024px) 493px, (min-width: 768px) 336px, 420px',
