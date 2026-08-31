@@ -12,4 +12,5 @@ export class ResponsiveImageComponent {
   readonly sizes = input<string>();
   readonly ratio = input<string>('16 / 9');
   readonly loading = input<'lazy' | 'eager'>('lazy');
+  readonly fetchpriority = input<'high' | 'low' | 'auto'>('auto');
 }
